@@ -1,6 +1,3 @@
 (
-    text_texture_height: 80.0,
-    tap_tolerance: 0.05,
-    font: Some("OpenSans-Regular.ttf"),
-    max_fps: 60.0,
+    font: "OpenSans-Regular.ttf",
 )
