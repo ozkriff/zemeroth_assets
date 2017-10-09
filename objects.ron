@@ -1,0 +1,53 @@
+({
+    "swordsman": [
+        Strength((
+            base_strength: (4),
+            strength: (4),
+        )),
+        Agent((
+            moves: (1),
+            attacks: (1),
+            jokers: (1),
+            reactive_attacks: (1),
+            attack_distance: (1),
+            move_points: (3),
+            base_moves: (1),
+            base_attacks: (1),
+            base_jokers: (1),
+        )),
+    ],
+    "spearman": [
+        Strength((
+            base_strength: (3),
+            strength: (3),
+        )),
+        Agent((
+            moves: (1),
+            attacks: (0),
+            jokers: (1),
+            reactive_attacks: (2),
+            attack_distance: (2),
+            move_points: (3),
+            base_moves: (1),
+            base_attacks: (0),
+            base_jokers: (1),
+        )),
+    ],
+    "imp": [
+        Strength((
+            base_strength: (2),
+            strength: (2),
+        )),
+        Agent((
+            moves: (1),
+            attacks: (1),
+            jokers: (0),
+            reactive_attacks: (1),
+            attack_distance: (1),
+            move_points: (3),
+            base_moves: (1),
+            base_attacks: (1),
+            base_jokers: (0),
+        )),
+    ],
+})
