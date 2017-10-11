@@ -1,5 +1,6 @@
 ({
     "swordsman": [
+        Blocker(()),
         Strength((
             base_strength: (4),
             strength: (4),
@@ -17,6 +18,7 @@
         )),
     ],
     "spearman": [
+        Blocker(()),
         Strength((
             base_strength: (3),
             strength: (3),
@@ -34,6 +36,7 @@
         )),
     ],
     "imp": [
+        Blocker(()),
         Strength((
             base_strength: (2),
             strength: (2),
@@ -49,5 +52,8 @@
             base_attacks: (1),
             base_jokers: (0),
         )),
+    ],
+    "boulder": [
+        Blocker(()),
     ],
 })
