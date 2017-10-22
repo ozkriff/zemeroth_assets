@@ -16,6 +16,11 @@
             base_attacks: (1),
             base_jokers: (1),
         )),
+        Abilities((
+            xxx: [
+                A,
+            ],
+        )),
     ],
     "spearman": [
         Blocker(()),
