@@ -16,11 +16,11 @@
             base_attacks: (1),
             base_jokers: (1),
         )),
-        Abilities((
-            xxx: [
-                A,
-            ],
-        )),
+        Abilities(([
+            Knockback,
+            // Smash,
+            Jump,
+        ])),
     ],
     "spearman": [
         Blocker(()),
@@ -39,6 +39,9 @@
             base_attacks: (0),
             base_jokers: (1),
         )),
+        Abilities(([
+            Jump,
+        ])),
     ],
     "imp": [
         Blocker(()),
