@@ -18,9 +18,10 @@
         )),
         Abilities(([
             (ability: Knockback, status: Ready),
-            // (ability: Smash, status: Ready),
+            (ability: Club, status: Ready),
             (ability: Jump, status: Ready),
             (ability: Poison, status: Ready),
+            (ability: Explode, status: Ready),
         ])),
     ],
     "spearman": [
@@ -56,8 +57,7 @@
             jokers: (0),
             reactive_attacks: (1),
             attack_distance: (1),
-            // move_points: (3),
-            move_points: (2),
+            move_points: (3),
             base_moves: (1),
             base_attacks: (1),
             base_jokers: (0),
