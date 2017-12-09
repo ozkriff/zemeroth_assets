@@ -22,6 +22,7 @@
             (ability: Jump, status: Ready),
             (ability: Poison, status: Ready),
             (ability: Explode, status: Ready),
+            (ability: ThrowBomb, status: Ready),
         ])),
     ],
     "spearman": [
@@ -64,6 +65,9 @@
         )),
     ],
     "boulder": [
+        Blocker(()),
+    ],
+    "bomb": [
         Blocker(()),
     ],
 })
