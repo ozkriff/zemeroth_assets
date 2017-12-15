@@ -63,6 +63,9 @@
             base_attacks: (1),
             base_jokers: (0),
         )),
+        Abilities(([
+            (ability: ThrowBomb, status: Ready),
+        ])),
     ],
     "boulder": [
         Blocker(()),
