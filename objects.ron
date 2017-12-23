@@ -20,9 +20,8 @@
             (ability: Knockback, status: Ready),
             (ability: Club, status: Ready),
             (ability: Jump, status: Ready),
-            (ability: Poison, status: Ready),
-            (ability: Explode, status: Ready),
             (ability: ThrowBomb, status: Ready),
+            (ability: StartFire, status: Ready),
         ])),
     ],
     "spearman": [
@@ -44,6 +43,8 @@
         )),
         Abilities(([
             (ability: Jump, status: Ready),
+            (ability: Poison, status: Ready),
+            (ability: Explode, status: Ready),
         ])),
     ],
     "imp": [
@@ -72,5 +73,15 @@
     ],
     "bomb": [
         Blocker(()),
+    ],
+    "fire": [
+        PassiveAbilities(([
+            Burn,
+        ])),
+    ],
+    "poison_cloud": [
+        PassiveAbilities(([
+            Poison,
+        ])),
     ],
 })
