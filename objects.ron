@@ -22,6 +22,7 @@
             (ability: Jump, status: Ready),
             (ability: ThrowBomb, status: Ready),
             (ability: StartFire, status: Ready),
+            (ability: CreatePoisonCloud, status: Ready),
         ])),
     ],
     "spearman": [
