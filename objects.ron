@@ -51,8 +51,8 @@
     "imp": [
         Blocker(()),
         Strength((
-            base_strength: (2),
-            strength: (2),
+            base_strength: (3),
+            strength: (3),
         )),
         Agent((
             moves: (1),
