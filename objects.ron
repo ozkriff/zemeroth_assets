@@ -22,7 +22,7 @@
             (ability: Jump, status: Ready),
             (ability: ThrowBomb, status: Ready),
             (ability: StartFire, status: Ready),
-            (ability: CreatePoisonCloud, status: Ready),
+            (ability: PoisonCloud, status: Ready),
         ])),
     ],
     "spearman": [
@@ -45,7 +45,6 @@
         Abilities(([
             (ability: Jump, status: Ready),
             (ability: Poison, status: Ready),
-            (ability: Explode, status: Ready),
         ])),
     ],
     "imp": [
@@ -59,6 +58,24 @@
             attacks: (1),
             jokers: (0),
             reactive_attacks: (1),
+            attack_distance: (1),
+            move_points: (3),
+            base_moves: (1),
+            base_attacks: (1),
+            base_jokers: (0),
+        )),
+    ],
+    "imp_bomber": [
+        Blocker(()),
+        Strength((
+            base_strength: (2),
+            strength: (2),
+        )),
+        Agent((
+            moves: (1),
+            attacks: (1),
+            jokers: (0),
+            reactive_attacks: (0),
             attack_distance: (1),
             move_points: (3),
             base_moves: (1),
