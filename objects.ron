@@ -209,4 +209,9 @@
             Poison,
         ]),
     ],
+    "spike_trap": [
+        PassiveAbilities([
+            SpikeTrap,
+        ]),
+    ],
 }
