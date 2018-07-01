@@ -45,6 +45,7 @@
         )),
         Abilities([
             (ability: Bomb(3), base_cooldown: 3),
+            (ability: BombPush((throw_distance: 3)), base_cooldown: 3),
             (ability: BombFire(3), base_cooldown: 3),
             (ability: BombPoison(3), base_cooldown: 3),
             (ability: Heal(2), base_cooldown: 2),
@@ -190,7 +191,10 @@
     "boulder": [
         Blocker(()),
     ],
-    "bomb": [
+    "bomb_damage": [
+        Blocker(()),
+    ],
+    "bomb_push": [
         Blocker(()),
     ],
     "bomb_poison": [
