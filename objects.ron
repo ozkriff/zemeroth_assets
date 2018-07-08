@@ -175,7 +175,7 @@
             reactive_attacks: 1,
             attack_distance: 1,
             attack_strength: 1,
-            move_points: 1,
+            move_points: 3,
             base_moves: 0,
             base_attacks: 0,
             base_jokers: 1,
