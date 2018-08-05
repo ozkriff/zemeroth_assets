@@ -159,7 +159,7 @@
             base_jokers: 0,
         )),
         Abilities([
-            (ability: Bomb(3), base_cooldown: 2),
+            (ability: BombDemonic(3), base_cooldown: 2),
         ]),
     ],
     "imp_summoner": [
@@ -201,6 +201,9 @@
         Blocker(()),
     ],
     "bomb_fire": [
+        Blocker(()),
+    ],
+    "bomb_demonic": [
         Blocker(()),
     ],
     "fire": [
