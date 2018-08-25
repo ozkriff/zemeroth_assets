@@ -3,32 +3,39 @@
 
 Filenames are hashed too.
 Hidden files (including `.checksum.md5` and `.travis.yml`) are ignored.
-Python 3.5 required.
+Python 3.4 required.
 """
 
 import sys
 import os
 import hashlib
-import glob
 import argparse
 
-assert sys.version_info >= (3, 5), f'{sys.version_info}'
+assert sys.version_info >= (3, 4), str(sys.version_info)
+
+def file_list():
+    matches = []
+    for root, dirnames, filenames in os.walk('.', topdown=True):
+        # Ignore hidden files and dirs
+        filenames = [f for f in filenames if not f[0] == '.']
+        dirnames[:] = [d for d in dirnames if not d[0] == '.']
+        for filename in filenames:
+            matches.append(os.path.join(root, filename))
+    return matches
 
 parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--check", action='store_true')
 args = parser.parse_args()
 
-file_names = sorted(glob.glob(os.path.join('.', '**'), recursive=True))
-
 constructor = hashlib.md5()
-for file_name in file_names:
+for file_name in sorted(file_list()):
     if os.path.isfile(file_name):
-        print(f"Hasing '{file_name}'...");
+        print("Hasing '{}'...".format(file_name));
         constructor.update(file_name.encode())
         constructor.update(open(file_name, 'rb').read())
 
 hash = constructor.hexdigest()
-print(f'The hash is {hash}')
+print("The hash is {}".format(hash))
 
 if args.check:
     print("Comparing the hash with `.checksum.md5`...")
