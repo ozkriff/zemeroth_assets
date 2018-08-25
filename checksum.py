@@ -18,7 +18,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument("-c", "--check", action='store_true')
 args = parser.parse_args()
 
-file_names = glob.glob(os.path.join('.', '**'), recursive=True)
+file_names = sorted(glob.glob(os.path.join('.', '**'), recursive=True))
 
 constructor = hashlib.md5()
 for file_name in file_names:
