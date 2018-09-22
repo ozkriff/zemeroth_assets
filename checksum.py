@@ -30,7 +30,7 @@ args = parser.parse_args()
 constructor = hashlib.md5()
 for file_name in sorted(file_list()):
     if os.path.isfile(file_name):
-        print("Hasing '{}'...".format(file_name));
+        print("Hashing '{}'...".format(file_name));
         constructor.update(file_name.encode())
         constructor.update(open(file_name, 'rb').read())
 
