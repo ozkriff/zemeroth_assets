@@ -185,8 +185,11 @@
             base_attacks: 0,
             base_jokers: 1,
         )),
+        Summoner((
+            count: 2,
+        )),
         Abilities([
-            (ability: Summon(3), base_cooldown: 3),
+            (ability: Summon, base_cooldown: 3),
         ]),
         PassiveAbilities([
             HeavyImpact,
