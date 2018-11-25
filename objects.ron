@@ -160,11 +160,11 @@
             reactive_attacks: 1,
             attack_distance: 1,
             attack_strength: 2,
-            attack_accuracy: 3,
+            attack_accuracy: 4,
             move_points: 3,
         )),
         Summoner((
-            count: 1,
+            count: 2,
         )),
         Abilities([
             (ability: Summon, base_cooldown: 3),
