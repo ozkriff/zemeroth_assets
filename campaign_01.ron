@@ -7,7 +7,6 @@
         (
             scenario: (
                 map_radius: (4),
-                players_count: 2,
                 rocky_tiles_count: 5,
                 objects: [
                     (
@@ -27,7 +26,6 @@
         (
             scenario: (
                 map_radius: (4),
-                players_count: 2,
                 rocky_tiles_count: 8,
                 objects: [
                     (
