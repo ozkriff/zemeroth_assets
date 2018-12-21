@@ -15,6 +15,7 @@
             attack_strength: 2,
             attack_accuracy: 5,
             attack_break: 1,
+            weapon_type: Slash,
             move_points: 3,
         )),
         Abilities([
@@ -36,6 +37,7 @@
             attack_distance: 0,
             attack_strength: 1,
             attack_accuracy: 4,
+            weapon_type: Slash,
             dodge: 1,
             move_points: 3,
         )),
@@ -61,6 +63,7 @@
             attack_accuracy: 3,
             attack_distance: 1,
             attack_break: 2,
+            weapon_type: Smash,
             move_points: 3,
         )),
         Abilities([
@@ -84,6 +87,7 @@
             attack_distance: 2,
             attack_strength: 1,
             attack_accuracy: 5,
+            weapon_type: Pierce,
             dodge: 1,
             move_points: 3,
         )),
@@ -104,6 +108,7 @@
             attack_strength: 1,
             attack_accuracy: 3,
             attack_distance: 1,
+            weapon_type: Claw,
             move_points: 3,
         )),
     ],
@@ -120,6 +125,7 @@
             attack_strength: 0,
             attack_accuracy: 3,
             attack_distance: 1,
+            weapon_type: Claw,
             move_points: 3,
         )),
         PassiveAbilities([
@@ -139,6 +145,7 @@
             attack_strength: 1,
             attack_accuracy: 2,
             attack_distance: 1,
+            weapon_type: Claw,
             move_points: 3,
         )),
         Abilities([
@@ -161,6 +168,7 @@
             attack_distance: 1,
             attack_strength: 2,
             attack_accuracy: 4,
+            weapon_type: Smash,
             move_points: 3,
         )),
         Summoner((
