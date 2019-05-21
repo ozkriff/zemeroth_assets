@@ -9,7 +9,7 @@
                 map_radius: (4),
                 rocky_tiles_count: 5,
                 objects: [
-                    (owner: Some((1)), typename: "imp", line: Front, count: 2),
+                    (owner: Some((1)), typename: "imp", line: Some(Front), count: 2),
                 ],
             ),
             award: (
@@ -21,8 +21,8 @@
                 map_radius: (4),
                 rocky_tiles_count: 8,
                 objects: [
-                    (owner: Some((1)), typename: "imp", line: Front, count: 3),
-                    (owner: Some((1)), typename: "imp_bomber", line: Middle, count: 2),
+                    (owner: Some((1)), typename: "imp", line: Some(Front), count: 3),
+                    (owner: Some((1)), typename: "imp_bomber", line: Some(Middle), count: 2),
                 ],
             ),
             award: (
@@ -33,10 +33,10 @@
             scenario: (
                 rocky_tiles_count: 10,
                 objects: [
-                    (owner: Some((1)), typename: "imp", line: Front, count: 3),
-                    (owner: Some((1)), typename: "imp_toxic", line: Middle, count: 1),
-                    (owner: Some((1)), typename: "imp_bomber", line: Back, count: 1),
-                    (owner: Some((1)), typename: "imp_summoner", line: Back, count: 1),
+                    (owner: Some((1)), typename: "imp", line: Some(Front), count: 3),
+                    (owner: Some((1)), typename: "imp_toxic", line: Some(Middle), count: 1),
+                    (owner: Some((1)), typename: "imp_bomber", line: Some(Back), count: 1),
+                    (owner: Some((1)), typename: "imp_summoner", line: Some(Back), count: 1),
                 ],
             ),
             award: (
@@ -47,10 +47,10 @@
             scenario: (
                 rocky_tiles_count: 10,
                 objects: [
-                    (owner: Some((1)), typename: "imp", line: Front, count: 4),
-                    (owner: Some((1)), typename: "imp_toxic", line: Middle, count: 2),
-                    (owner: Some((1)), typename: "imp_bomber", line: Back, count: 1),
-                    (owner: Some((1)), typename: "imp_summoner", line: Back, count: 2),
+                    (owner: Some((1)), typename: "imp", line: Some(Front), count: 4),
+                    (owner: Some((1)), typename: "imp_toxic", line: Some(Middle), count: 2),
+                    (owner: Some((1)), typename: "imp_bomber", line: Some(Back), count: 1),
+                    (owner: Some((1)), typename: "imp_summoner", line: Some(Back), count: 2),
                 ],
             ),
             award: (
@@ -61,10 +61,10 @@
             scenario: (
                 rocky_tiles_count: 5,
                 objects: [
-                    (owner: Some((1)), typename: "imp", line: Front, count: 3),
-                    (owner: Some((1)), typename: "imp_toxic", line: Middle, count: 3),
-                    (owner: Some((1)), typename: "imp_bomber", line: Back, count: 2),
-                    (owner: Some((1)), typename: "imp_summoner", line: Back, count: 3),
+                    (owner: Some((1)), typename: "imp", line: Some(Front), count: 3),
+                    (owner: Some((1)), typename: "imp_toxic", line: Some(Middle), count: 3),
+                    (owner: Some((1)), typename: "imp_bomber", line: Some(Back), count: 2),
+                    (owner: Some((1)), typename: "imp_summoner", line: Some(Back), count: 3),
                 ],
             ),
             award: (
