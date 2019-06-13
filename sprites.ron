@@ -62,7 +62,7 @@
     "imp_summoner": (
         paths: {
             "": "/imp_summoner.png",
-            "throw": "/imp_summoner_summon.png",
+            "summon": "/imp_summoner_summon.png",
         },
         offset_x: 0.0,
         offset_y: 0.15,
