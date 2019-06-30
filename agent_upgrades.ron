@@ -1,6 +1,0 @@
-#![enable(unwrap_newtypes)]
-
-{
-    "swordsman": ["heavy_swordsman", "elite_swordsman"],
-    "spearman": ["heavy_spearman", "elite_spearman"],
-}

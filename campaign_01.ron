@@ -1,4 +1,4 @@
-(
+Plan(
     initial_agents: [
         "swordsman",
         "alchemist",
@@ -14,6 +14,7 @@
             ),
             award: (
                 recruits: ["spearman"],
+                renown: 15,
             ),
         ),
         (
@@ -27,6 +28,7 @@
             ),
             award: (
                 recruits: ["hammerman", "alchemist"],
+                renown: 15,
             ),
         ),
         (
@@ -41,6 +43,7 @@
             ),
             award: (
                 recruits: ["swordsman", "alchemist"],
+                renown: 20,
             ),
         ),
         (
@@ -55,6 +58,7 @@
             ),
             award: (
                 recruits: ["swordsman", "spearman", "hammerman"],
+                renown: 20,
             ),
         ),
         (
@@ -68,7 +72,7 @@
                 ],
             ),
             award: (
-                recruits: [],
+                renown: 100,
             ),
         ),
     ],
