@@ -14,7 +14,7 @@
             attack_distance: 1,
             attack_strength: 2,
             attack_accuracy: 4,
-            attack_break: 0,
+            attack_break: 1,
             weapon_type: Slash,
             move_points: 3,
         )),
