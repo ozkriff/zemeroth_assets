@@ -21,8 +21,19 @@
     ),
     "hammerman": (
         cost: 11,
+        upgrades: ["heavy_hammerman"],
+    ),
+    "heavy_hammerman": (
+        cost: 15,
     ),
     "alchemist": (
         cost: 12,
+        upgrades: ["healer", "firer"],
+    ),
+    "healer": (
+        cost: 16,
+    ),
+    "firer": (
+        cost: 16,
     ),
 }

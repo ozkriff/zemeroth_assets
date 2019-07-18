@@ -57,11 +57,38 @@
         offset_y: 0.1,
         shadow_size_coefficient: 1.0,
     ),
+    "heavy_hammerman": (
+        paths: {
+            "": "/heavy_hammerman.png",
+        },
+        offset_x: 0.05,
+        offset_y: 0.1,
+        shadow_size_coefficient: 1.0,
+    ),
     "alchemist": (
         paths: {
             "": "/alchemist.png",
             "throw": "/alchemist_throw.png",
             "heal": "/alchemist_heal.png",
+        },
+        offset_x: 0.05,
+        offset_y: 0.1,
+        shadow_size_coefficient: 1.0,
+    ),
+    "healer": (
+        paths: {
+            "": "/healer.png",
+            "throw": "/healer_throw.png",
+            "heal": "/healer_heal.png",
+        },
+        offset_x: 0.05,
+        offset_y: 0.1,
+        shadow_size_coefficient: 1.0,
+    ),
+    "firer": (
+        paths: {
+            "": "/firer.png",
+            "throw": "/firer_throw.png",
         },
         offset_x: 0.05,
         offset_y: 0.1,
