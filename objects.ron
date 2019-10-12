@@ -315,7 +315,7 @@
         )),
         Abilities([
             (ability: Summon, base_cooldown: 3),
-            (ability: Possess, base_cooldown: 3),
+            (ability: Bloodlust, base_cooldown: 3),
         ]),
         PassiveAbilities([
             HeavyImpact,
