@@ -2,9 +2,7 @@
 
 {
     "swordsman": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 3,
         )),
@@ -25,9 +23,7 @@
         ]),
     ],
     "elite_swordsman": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 4,
         )),
@@ -70,9 +66,7 @@
         )),
     ],
     "alchemist": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 3,
         )),
@@ -94,9 +88,7 @@
         ]),
     ],
     "healer": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 4,
         )),
@@ -118,9 +110,7 @@
         ]),
     ],
     "firer": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 4,
         )),
@@ -142,9 +132,7 @@
         ]),
     ],
     "hammerman": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 4,
         )),
@@ -193,9 +181,7 @@
         ]),
     ],
     "spearman": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 3,
         )),
@@ -215,9 +201,7 @@
         ]),
     ],
     "elite_spearman": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 4,
         )),
@@ -257,9 +241,7 @@
         )),
     ],
     "imp": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 3,
         )),
@@ -276,9 +258,7 @@
         )),
     ],
     "imp_toxic": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 2,
         )),
@@ -298,9 +278,7 @@
         ]),
     ],
     "imp_bomber": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 2,
         )),
@@ -320,9 +298,7 @@
         ]),
     ],
     "imp_summoner": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
         Strength((
             strength: 7,
         )),
@@ -358,29 +334,19 @@
         )),
     ],
     "bomb_damage": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
     ],
     "bomb_push": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
     ],
     "bomb_poison": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
     ],
     "bomb_fire": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
     ],
     "bomb_demonic": [
-        Blocker((
-            weight: Normal,
-        )),
+        Blocker(()),
     ],
     "fire": [
         PassiveAbilities([
