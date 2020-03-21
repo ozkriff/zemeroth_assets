@@ -2,7 +2,6 @@
     "swordsman": (
         paths: {
             "": "/swordsman.png",
-            "rage": "/swordsman_rage.png",
         },
         offset_x: 0.15,
         offset_y: 0.1,
